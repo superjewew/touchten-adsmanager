@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{20B43766-00FB-8A5C-E750-C56ABB9316B0}") = "Touchten prog test", "Assembly-CSharp.csproj", "{6F3679FE-9BD9-27D0-67C9-62BFD44E661E}"
 EndProject
+Project("{20B43766-00FB-8A5C-E750-C56ABB9316B0}") = "Touchten prog test", "Assembly-CSharp-Editor.csproj", "{C92BD7E5-C7F7-FFE2-DF21-04850AC19EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{6F3679FE-9BD9-27D0-67C9-62BFD44E661E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F3679FE-9BD9-27D0-67C9-62BFD44E661E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F3679FE-9BD9-27D0-67C9-62BFD44E661E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92BD7E5-C7F7-FFE2-DF21-04850AC19EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92BD7E5-C7F7-FFE2-DF21-04850AC19EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92BD7E5-C7F7-FFE2-DF21-04850AC19EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92BD7E5-C7F7-FFE2-DF21-04850AC19EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
