@@ -101,13 +101,14 @@ public class AdsManager : MonoBehaviour {
 
 		public void CacheInterstitialAd() {
 			Chartboost.cacheInterstitial(CBLocation.HomeScreen);
+			consoleText.text += "Caching Ad"; 
 		}
 
 		public void ShowInterstitialAd() {
 			if (Chartboost.hasInterstitial (CBLocation.HomeScreen)) {
 				Chartboost.showInterstitial (CBLocation.HomeScreen);
 			} else {
-				Debug.Log ("Ad not cached, not showing"); 
+				consoleText.text += "Ad not cached, not showing"; 
 			}
 		}
 	}
@@ -115,8 +116,6 @@ public class AdsManager : MonoBehaviour {
 	class VungleAd {
 
 		public VungleAd(Text consoleText) {
-
-
 			Vungle.init ("577947f3bc8623f86800006c", "", "");
 
 			Vungle.adPlayableEvent += (adPlayable) => {
